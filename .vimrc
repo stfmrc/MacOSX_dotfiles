@@ -114,6 +114,8 @@ if !has("gui_running")
 endif
 
 " Use the Solarized Dark theme
+let g:solarized_termcolors=256
+let g:t_Co=256
 colorscheme solarized
 set background=dark
 
