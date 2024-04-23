@@ -17,6 +17,7 @@
 #PS1+="$(tput sgr0)"
 #export PS1
 
+# If you are on a remote computer comment the following 5 lines
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
 	export TERM='gnome-256color';
 elif infocmp xterm-256color >/dev/null 2>&1; then
