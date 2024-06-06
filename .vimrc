@@ -114,6 +114,7 @@ if !has("gui_running")
 endif
 
 " Use the Solarized Dark theme
+" Cahge 256 to 16 if you want solarized dark blue background
 let g:solarized_termcolors=256
 let g:t_Co=256
 colorscheme solarized
